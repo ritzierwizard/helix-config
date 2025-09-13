@@ -4,10 +4,5 @@ theme = "onedark"
 end-of-line-diagnostics = "hint"
 auto-format = false
 
-[editor.cursor-shape]
-insert = "bar"
-normal = "block"
-select = "underline"
-
 [editor.inline-diagnostics]
 cursor-line = "warning" # show warnings and errors on the cursorline inline
