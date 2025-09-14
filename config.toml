@@ -1,4 +1,4 @@
-theme = "onedark"
+theme = "dark_plus"
 
 [editor]
 end-of-line-diagnostics = "hint"
@@ -22,3 +22,6 @@ skip-levels = 1
 
 [editor.inline-diagnostics]
 cursor-line = "warning" # show warnings and errors on the cursorline inline
+
+[keys.insert]
+"A-x" = "normal_mode"
