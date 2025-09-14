@@ -1,3 +1,5 @@
 *.map*
+*.ttf
 
 !.gitignore
+!.ignore
