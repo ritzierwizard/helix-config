@@ -12,6 +12,10 @@ preview-completion-insert = false
 
 [editor.lsp]
 display-inlay-hints = true
+auto-signature-help = false
+
+[editor.soft-wrap]
+enable = true
 
 [editor.whitespace.render]
 space = "all"
@@ -27,3 +31,4 @@ cursor-line = "warning" # show warnings and errors on the cursorline inline
 
 [keys.insert]
 "A-x" = "normal_mode"
+"A-z" = "signature_help"
