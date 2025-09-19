@@ -32,3 +32,6 @@ cursor-line = "warning" # show warnings and errors on the cursorline inline
 [keys.insert]
 "A-x" = "normal_mode"
 "A-z" = "signature_help"
+
+[keys.normal]
+"A-x" = ":reset-diff-change"
