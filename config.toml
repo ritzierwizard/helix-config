@@ -7,7 +7,7 @@ line-number = "relative"
 cursorline = true
 continue-comments = false
 completion-timeout = 5
-bufferline = "multiple"
+bufferline = "always"
 preview-completion-insert = false
 
 [editor.lsp]
