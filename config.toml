@@ -34,6 +34,7 @@ cursor-line = "warning" # show warnings and errors on the cursorline inline
 "C-z" = "signature_help"
 
 [keys.normal]
+"a" = "@li"
 "X" = "select_line_above"
 "A-x" = ":reset-diff-change"
 "C-z" = "signature_help"
