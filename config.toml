@@ -16,6 +16,8 @@ auto-signature-help = false
 
 [editor.auto-pairs]
 '{' = '}'
+'[' = ']'
+'(' = ')'
 
 [editor.soft-wrap]
 enable = true
