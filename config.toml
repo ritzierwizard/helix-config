@@ -37,10 +37,14 @@ cursor-line = "warning" # show warnings and errors on the cursorline inline
 
 [keys.insert]
 "A-x" = "normal_mode"
+"C-s" = ":update"
 "C-z" = "signature_help"
+"C-space" = "completion"
 
 [keys.normal]
 "a" = "@li"
 "X" = "select_line_above"
 "A-x" = ":reset-diff-change"
 "C-z" = "signature_help"
+"C-b" = "@:run-shell-command build.bat<ret>"
+"C-r" = "@:run-shell-command run.bat<ret>"
