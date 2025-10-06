@@ -1,5 +1,6 @@
 *.map*
 *.ttf
+*.lock
 
 !.gitignore
 !.ignore
