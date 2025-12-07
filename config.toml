@@ -15,10 +15,10 @@ preview-completion-insert = false
 # display-inlay-hints = true
 auto-signature-help = false
 
-[editor.auto-pairs]
-'{' = '}'
-'[' = ']'
-'(' = ')'
+# [editor.auto-pairs]
+# '{' = '}'
+# '[' = ']'
+# '(' = ')'
 
 [editor.soft-wrap]
 enable = true
@@ -46,5 +46,5 @@ cursor-line = "warning" # show warnings and errors on the cursorline inline
 "X" = "select_line_above"
 "A-x" = ":reset-diff-change"
 "C-z" = "signature_help"
-"C-b" = "@:run-shell-command build.bat<ret>"
-"C-r" = "@:run-shell-command run.bat<ret>"
+"C-b" = "@:run-shell-command build.sh<ret>"
+"C-r" = "@:run-shell-command run.sh<ret>"
