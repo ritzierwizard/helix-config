@@ -1,6 +1,11 @@
 [language-server.tinymist]
 command = "tinymist"
 
+[language-server.tinymist.config]
+typstExtraArgs = ["main.typ"]
+exportPdf = "onType"
+outputPath = "$dir/$name"
+
 [[language]]
 name = "typst"
 language-servers = ["tinymist"]
