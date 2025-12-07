@@ -3,13 +3,18 @@ theme = "dark_plus"
 [editor]
 end-of-line-diagnostics = "hint"
 auto-format = false
-auto-completion = false
+auto-completion = true
 line-number = "relative"
 cursorline = true
 continue-comments = false
 completion-timeout = 5
 bufferline = "always"
 preview-completion-insert = false
+completion-trigger-len = 2
+
+[editor.word-completion]
+enable = true
+trigger-length = 2
 
 [editor.lsp]
 # display-inlay-hints = true
@@ -42,6 +47,7 @@ cursor-line = "warning" # show warnings and errors on the cursorline inline
 "C-space" = "completion"
 
 [keys.normal]
+"i" = ["collapse_selection", "insert_mode"]
 "a" = "@li"
 "X" = "select_line_above"
 "A-x" = ":reset-diff-change"
