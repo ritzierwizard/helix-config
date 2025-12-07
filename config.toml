@@ -52,5 +52,5 @@ cursor-line = "warning" # show warnings and errors on the cursorline inline
 "X" = "select_line_above"
 "A-x" = ":reset-diff-change"
 "C-z" = "signature_help"
-"C-b" = "@:run-shell-command build.sh<ret>"
-"C-r" = "@:run-shell-command run.sh<ret>"
+"C-b" = "@:run-shell-command bash build.sh build<ret>"
+"C-r" = "@:run-shell-command bash build.sh run<ret>"

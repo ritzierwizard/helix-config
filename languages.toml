@@ -6,6 +6,14 @@ typstExtraArgs = ["main.typ"]
 exportPdf = "onType"
 outputPath = "$dir/$name"
 
+[language-server.tinymist.config.preview]
+background.enabled = true
+background.args = [
+  "--data-plane-host=127.0.0.1:0",
+  "--invert-colors=never",
+  "--open"
+]
+
 [[language]]
 name = "typst"
 language-servers = ["tinymist"]
