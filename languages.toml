@@ -18,9 +18,9 @@ background.args = [
 name = "typst"
 language-servers = ["tinymist"]
 
-# [[language]]
-# name = "odin"
-# indent = { tab-width = 4, unit = "\t" }
+[[language]]
+name = "odin"
+indent = { tab-width = 4, unit = "\t" }
 
 [[language]]
 name = "c"
@@ -30,9 +30,9 @@ indent = { tab-width = 4, unit = "\t" }
 name = "cpp"
 indent = { tab-width = 4, unit = "\t" }
 
-# [[language]]
-# name = "json"
-# indent = { tab-width = 4, unit = "\t" }
+[[language]]
+name = "json"
+indent = { tab-width = 4, unit = "\t" }
 
 # [[language]]
 # name = "php"

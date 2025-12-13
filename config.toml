@@ -1,11 +1,11 @@
-theme = "dark_plus"
+theme = "base16_transparent"
 
 [editor]
 end-of-line-diagnostics = "hint"
 auto-format = false
 auto-completion = true
 line-number = "relative"
-cursorline = true
+cursorline = false
 continue-comments = false
 completion-timeout = 5
 bufferline = "always"
@@ -45,6 +45,7 @@ cursor-line = "warning" # show warnings and errors on the cursorline inline
 "C-s" = ":update"
 "C-z" = "signature_help"
 "C-space" = "completion"
+
 
 [keys.normal]
 "i" = ["collapse_selection", "insert_mode"]
